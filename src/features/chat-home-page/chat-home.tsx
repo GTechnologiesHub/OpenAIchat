@@ -32,6 +32,7 @@ export const ChatHome: FC<ChatPersonaProps> = (props) => {
             </>
           }
           description={AI_DESCRIPTION}
+            className="bg-[url('/public/hero-bkg.jpg')] bg-cover bg-center text-white p-10"
         ></Hero>
         <div className="container max-w-4xl flex gap-20 flex-col">
           <div>
